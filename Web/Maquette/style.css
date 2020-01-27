@@ -8,7 +8,8 @@ html {
   overflow: hidden;
 }
 header,
-footer {
+footer,
+#cursorFrame {
   background-color: rgba(255, 255, 255, 0.8);
   width: 96vw;
   margin-top: 2vh;
@@ -17,14 +18,25 @@ footer {
   border-radius: 5px;
   font-size: large;
 }
+#cursorFrame {
+  display: flex;
+  justify-content: space-evenly;
+}
+#ex6 {
+  width: 50%;
+}
 h6 {
   text-align: center;
   font-size: medium;
+  margin: 1vh;
+}
+p {
+  margin: 5vh;
 }
 #book {
   background-color: rgba(255, 255, 255, 0.8);
   width: 96vw;
-  height: 50vh;
+  height: 67vh;
   margin-top: 2vh;
   border-radius: 5px;
   overflow-y: scroll;
