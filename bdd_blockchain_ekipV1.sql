@@ -18,6 +18,7 @@
 
 CREATE TABLE IF NOT EXISTS `block` (
   `contributeur` varchar(255) NOT NULL,
+  `previous_hash`varchar(255) NOT NULL,
   `hash` varchar(255) NOT NULL,
   `nonce` varchar(255) NOT NULL
 );
